@@ -1,0 +1,125 @@
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Runner*/
+.runner {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c3.png) 36 36, auto;
+}
+
+/*Phone*/
+.phone {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4f1.png) 36 36, auto;
+}
+
+/*Ocean*/
+.ocean {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30a.png) 36 36, auto;
+}
+
+section {
+  display: flex;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  height: auto;
+  background-color: #48d1cc;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 400px;
+  right: 105%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.finishline:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.newPhone:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.longSwim:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Megrim", cursive;
+  color: #bdb76b;
+  height: 115px;
+
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 70rem;
+  background-color: #e0ffff;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+figure {
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 3em;
+}
+
+h2 {
+  font-family: "Aleo", serif;
+  color: #444364;
+}
+
+
+.medal{
+  text-align:center;
+  position: relative;
+  display: inline-block;
+  font-family: "Gloock", serif;
+  margin: 20px;
+  padding: 0 35px;
+
+}
+
+.iPhone {
+  text-align:center;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  position: relative;
+  display: inline-block;
+  font-family: "Gloock", serif;
+  margin: 0px;
+  padding: 0 35px;
+
+}
+
+.swim{
+  text-align:center;
+  position: relative;
+  display: inline-block;
+  font-family: "Gloock", serif;
+  margin: 20px;
+  padding: 0 35px;
+}
+
+button {
+  background-color: #00BFFF;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Gloock", serif;
+}
